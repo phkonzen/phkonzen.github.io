@@ -46,7 +46,7 @@ css = ''
 body = '<body>'
 
 # card
-body += '<div class="container mt-5" style="max-width: 400px;">'
+body += '<div class="container d-flex justify-content-center mt-5">'
 body += '<div class="card border-primary" style="width: 18rem;">'
 body += '<img class="jumbotrom" src="./pics/jumbotron2.jpg" alt="Páginas disponíveis">'
 body += '<div class="card-body">'
