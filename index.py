@@ -40,7 +40,7 @@ css += '.title {'
 css += 'font-family: "Computer Modern Serif", serif;'
 css += '}'
 css += '.mybtn {'
-css += 'width: 20rem;'
+css += 'width: 20rem; !important'
 css += '}'
 
 
