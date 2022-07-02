@@ -57,7 +57,7 @@ body += '<h4 class="d-flex justify-content-center mb-0 title">Notas de Aula</h4>
 body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
 body += '</div>'
 
-body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https://phkonzen.github.io/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site oficial</a></p>'
+body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https://phkonzen.github.io/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://www.instagram.com/notas.pedrok/" class="btn btn-primary mybtn"><i class="fab fa-instagram"></i> &nbsp Perfil do Instagram</a></p>'
 
@@ -67,7 +67,7 @@ body += '<p class="d-flex justify-content-center"><a href="https://archive.org/d
 
 body += '<p class="d-flex justify-content-center"><a href="https://github.com/phkonzen/notas" class="btn btn-primary mybtn"><i class="fab fa-github"></i> &nbsp Repositório GitHub</a></p>'
 
-body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img class="favicon" src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
+body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
 
 # body += '<div class="card border-primary" style="width: 18rem;">'
