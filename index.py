@@ -32,6 +32,16 @@ head += '<link href="./fontawesome/css/solid.css" rel="stylesheet">'
 head += '<link rel="stylesheet" href="fonts/cmun-serif.css"></link>'
 head += '<link rel="stylesheet" href="index.css" type="text/css">'
         
+#google tracking
+head += '<!-- Global site tag (gtag.js) - Google Analytics -->'
+head += '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17226092-2"></script>'
+head += '<script>'
+head += 'window.dataLayer = window.dataLayer || [];'
+head += 'function gtag(){dataLayer.push(arguments);}'
+head += 'gtag("js", new Date());'
+head += '\ngtag("config", "UA-17226092-2")';
+head += '</script>'
+
 head += '</head>'
 
 # css
@@ -47,8 +57,13 @@ css += '}'
 # body
 body = '<body>'
 
-# card
+# general alert
+f = open('general_alert.html','r')
+body += f.read()
+f.close()
+
 body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
+
 body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas de Aula" style="width: 8rem;">'
 body += '</div>'
 
@@ -69,24 +84,6 @@ body += '<p class="d-flex justify-content-center"><a href="https://github.com/ph
 
 body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
-
-# body += '<div class="card border-primary" style="width: 18rem;">'
-# body += '<img class="jumbotrom" src="./pics/jumbotron2.jpg" alt="Páginas disponíveis">'
-# body += '<div class="card-body">'
-# body += '<h5 class="card-title">Acessar</h5>'
-# # body += '<div class="list-group">'
-# # body += '<a href="https://phkonzen.github.io/notas" class="list-group-item list-group-item-action border-warning">'
-# # body += '<i class="fa-solid fa-file-lines" style="color: blue;"></i> Notas de Aula</a>'
-# # body += '<a href="https://www.instagram.com/notas.pedrok/" class="list-group-item list-group-item-action"><i class="fab fa-instagram" style="color: blue;"></i> Perfil Instagram</a>'
-# # body += '<a href="https://www.youtube.com/channel/UCwutHKlKLgVj6IkFSUFBqoA" class="list-group-item list-group-item-action"><i class="fab fa-youtube" style="color: red;"></i> Canal Youtube</a>'
-# # body += '<a href="https://archive.org/details/notas-de-aula" class="list-group-item list-group-item-action"><i class="fas fa-building-columns" style="color: blue;"></i> Coleção archive.org</a>'
-# # body += '<a href="https://github.com/phkonzen/notas" class="list-group-item list-group-item-action"><i class="fab fa-github" style="color: blue;"></i> Repositório GitHub</a>'
-# # body += '<a href="https://professor.ufrgs.br/pedro" class="list-group-item list-group-item-action">'
-# # body += '<img class="favicon" src="./pics/favicon.ico"></img> Página Professor UFRGS</a>'
-# # body += '</div>'
-
-# body += '</div>'
-# body += '</div>'
 body += '</div>'
 
 
