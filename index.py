@@ -33,14 +33,9 @@ head += '<link rel="stylesheet" href="fonts/cmun-serif.css"></link>'
 head += '<link rel="stylesheet" href="index.css" type="text/css">'
         
 #google tracking
-head += '<!-- Global site tag (gtag.js) - Google Analytics -->'
-head += '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17226092-2"></script>'
-head += '<script>'
-head += 'window.dataLayer = window.dataLayer || [];'
-head += 'function gtag(){dataLayer.push(arguments);}'
-head += 'gtag("js", new Date());'
-head += '\ngtag("config", "UA-17226092-2")';
-head += '</script>'
+f = open('gtag.js','r')
+head += f.read()
+f.close()
 
 head += '</head>'
 
