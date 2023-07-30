@@ -59,7 +59,7 @@ f.close()
 
 body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
 
-body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas de Aula" style="width: 8rem;">'
+body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas de Aula" style="width: 15rem;">'
 body += '</div>'
 
 body += '<div class="container-fluid justify-content-center mb-2">'
