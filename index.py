@@ -63,7 +63,7 @@ body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas d
 body += '</div>'
 
 body += '<div class="container-fluid justify-content-center mb-2">'
-body += '<h4 class="d-flex justify-content-center mb-0 title">Notas de Aula</h4>'
+body += '<h2 class="d-flex justify-content-center mb-0 title">Notas de Aula</h2>'
 body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
 body += '</div>'
 
@@ -71,14 +71,14 @@ body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybt
 
 body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
-body += '<p class="d-flex justify-content-center"><a href="https://www.instagram.com/notas.pedrok/" class="btn btn-primary mybtn"><i class="fab fa-instagram"></i> &nbsp Perfil do Instagram</a></p>'
+body += '<p class="d-flex justify-content-center"><a href="https://www.instagram.com/notas.pedrok/" class="btn btn-primary mybtn"><i class="fab fa-instagram"></i> &nbsp @notas.pedrok</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://www.youtube.com/channel/UCwutHKlKLgVj6IkFSUFBqoA" class="btn btn-primary mybtn"><i class="fab fa-youtube"></i> &nbsp Canal do Youtube</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://archive.org/details/notas-de-aula" class="btn btn-primary mybtn"><i class="fas fa-building-columns""></i> &nbsp Coleção no archive.org</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://github.com/phkonzen/notas" class="btn btn-primary mybtn"><i class="fab fa-github"></i> &nbsp Repositório GitHub</a></p>'
-
+1
 body += '</div>'
 
 
