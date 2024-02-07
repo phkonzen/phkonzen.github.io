@@ -59,11 +59,13 @@ f.close()
 
 body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
 
-body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas de Aula" style="width: 15rem;">'
+body += '<a href="https://www.notaspedrok.com.br/notas"><img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas de Aula" style="width: 15rem;"></a>'
 body += '</div>'
 
 body += '<div class="container-fluid justify-content-center mb-2">'
-body += '<h2 class="d-flex justify-content-center mb-0 title">NotasPedroK</h2>'
+body += '<h2 class="d-flex justify-content-center mb-0 title">'
+body += 'NotasPedroK'
+body += '</h2>'
 body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
 body += '</div>'
 
