@@ -14,7 +14,7 @@ odir = './docs'
 # head
 head = '<head>'
 head =  '<meta charset="utf-8">'
-head += '<title>Notas de Aula</title>'
+head += '<title>NotasPedroK</title>'
 head += '<meta name="author" content="Pedro H A Konzen"/>\n'
 head += '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">'
 
