@@ -63,7 +63,7 @@ body += '<img src="./pics/logo.jpg" class="rounded mx-auto d-block" alt="Notas d
 body += '</div>'
 
 body += '<div class="container-fluid justify-content-center mb-2">'
-body += '<h2 class="d-flex justify-content-center mb-0 title">Notas de Aula</h2>'
+body += '<h2 class="d-flex justify-content-center mb-0 title">NotasPedroK</h2>'
 body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
 body += '</div>'
 
