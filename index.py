@@ -59,7 +59,7 @@ f.close()
 
 body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
 
-body += '<a href="https://www.notaspedrok.com.br/notas"><img src="./pics/logoPenguin.png" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
+body += '<a href="https://www.notaspedrok.com.br/notas"><img src="./pics/logoPenguin.jpg" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
 body += '</div>'
 
 body += '<div class="container-fluid justify-content-center mb-2">'
