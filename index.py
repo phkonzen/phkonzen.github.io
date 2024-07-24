@@ -73,9 +73,12 @@ body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybt
 
 body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
+body += '<p class="d-flex justify-content-center"><a href="https://www.youtube.com/channel/UCwutHKlKLgVj6IkFSUFBqoA" class="btn btn-primary mybtn"><i class="fab fa-youtube"></i> &nbsp Canal do Youtube</a></p>'
+
 body += '<p class="d-flex justify-content-center"><a href="https://www.instagram.com/notas.pedrok/" class="btn btn-primary mybtn"><i class="fab fa-instagram"></i> &nbsp @notas.pedrok</a></p>'
 
-body += '<p class="d-flex justify-content-center"><a href="https://www.youtube.com/channel/UCwutHKlKLgVj6IkFSUFBqoA" class="btn btn-primary mybtn"><i class="fab fa-youtube"></i> &nbsp Canal do Youtube</a></p>'
+body += '<p class="d-flex justify-content-center"><a href="https://www.linkedin.com/in/pedro-konzen-722806300" class="btn btn-primary mybtn"><i class="fa-brands fa-linkedin"></i> &nbsp Perfil no Linkedin</a></p>'
+
 
 body += '<p class="d-flex justify-content-center"><a href="https://archive.org/details/notas-de-aula" class="btn btn-primary mybtn"><i class="fas fa-building-columns""></i> &nbsp Coleção no archive.org</a></p>'
 
