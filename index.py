@@ -15,7 +15,8 @@ odir = './docs'
 head = '<head>'
 head =  '<meta charset="utf-8">'
 head += '<title>NotasPedroK</title>'
-head += '<meta name="author" content="Pedro H A Konzen"/>\n'
+head += '<meta name="author" content="Pedro H A Konzen"/>'
+head += '<link rel="icon" type="image/x-icon" href="./pics/favicon.jpg">'
 head += '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">'
 
 #boostrap
@@ -71,7 +72,7 @@ body += '</div>'
 
 body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https://phkonzen.github.io/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
 
-body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/favicon.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
+body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/ufrgs.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://www.youtube.com/channel/UCwutHKlKLgVj6IkFSUFBqoA" class="btn btn-primary mybtn"><i class="fab fa-youtube"></i> &nbsp Canal do Youtube</a></p>'
 
