@@ -16,7 +16,7 @@ head = '<head>'
 head =  '<meta charset="utf-8">'
 head += '<title>NotasPedroK</title>'
 head += '<meta name="author" content="Pedro H A Konzen"/>'
-head += '<link rel="icon" type="image/x-icon" href="./pics/favicon.jpg">'
+head += '<link rel="icon" type="image/x-icon" href="./pics/favicon.png">'
 head += '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">'
 
 #boostrap
