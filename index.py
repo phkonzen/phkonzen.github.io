@@ -63,7 +63,7 @@ f.close()
 # body += '</div>'
 
 body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
-body += '<a href="https://www.notaspedrok.com.br/notas"><img src="./pics/logo.png" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
+body += '<a href="https://notaspedrok.com.br/notas"><img src="./pics/logo.png" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
 body += '</div>'
 
 
@@ -74,7 +74,7 @@ body += '</h2>'
 body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
 body += '</div>'
 
-body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https://phkonzen.github.io/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
+body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https:notaspedrok/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
 
 body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/ufrgs.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
@@ -87,7 +87,7 @@ body += '<p class="d-flex justify-content-center"><a href="https://www.linkedin.
 
 body += '<p class="d-flex justify-content-center"><a href="https://archive.org/details/notas-de-aula" class="btn btn-primary mybtn"><i class="fas fa-building-columns""></i> &nbsp Coleção no archive.org</a></p>'
 
-body += '<p class="d-flex justify-content-center"><a href="https://github.com/phkonzen/notas" class="btn btn-primary mybtn"><i class="fab fa-github"></i> &nbsp Repositório GitHub</a></p>'
+body += '<p class="d-flex justify-content-center"><a href="https://github.com/phkonzen" class="btn btn-primary mybtn"><i class="fab fa-github"></i> &nbsp GitHub</a></p>'
 1
 body += '</div>'
 
