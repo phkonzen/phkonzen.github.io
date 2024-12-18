@@ -111,10 +111,10 @@ f.write(css)
 f.close()
 
 #fonts
-os.system('cp -rvf ./fonts ' + odir + '/')
+os.system('rsync -a --delete ./fonts/ ' + odir + '/fonts/')
 
 #fontawesome
-os.system('cp -rvf ./fontawesome ' + odir + '/')
+os.system('rsync -a --delete ./fontawesome/ ' + odir + '/fontawesome/')
 
 #pics
-os.system('cp -rvf ./pics ' + odir + '/')
+os.system('rsync -a --delete ./pics/ ' + odir + '/pics/')
