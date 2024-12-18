@@ -74,7 +74,7 @@ def deploy(odir):
   body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
   body += '</div>'
 
-  body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="./notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
+  body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="./notas/index.html" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
 
   body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/ufrgs.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
