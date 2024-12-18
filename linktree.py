@@ -63,7 +63,7 @@ def deploy(odir):
   # body += '</div>'
 
   body += '<div class="container-fluid d-flex justify-content-center mt-2 mb-2">'
-  body += '<a href="https://notaspedrok.com.br/notas"><img src="./pics/logo.png" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
+  body += '<a href="./notas"><img src="./pics/logo.png" class="rounded-circle mx-auto d-block" alt="Notas de Aula" style="width: 15rem; height: auto;"></a>'
   body += '</div>'
 
 
@@ -74,7 +74,7 @@ def deploy(odir):
   body += '<p class="d-flex justify-content-center mt-0 title">Pedro H A Konzen</p></p>'
   body += '</div>'
 
-  body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="https://notaspedrok.com.br/notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
+  body += '<p class="d-flex justify-content-center"><a class="btn btn-primary mybtn" href="./notas" role="button"><i class="fa-solid fa-file-lines"></i> &nbsp Site Oficial</a></p>'
 
   body += '<p class="d-flex justify-content-center"><a href="https://professor.ufrgs.br/pedro" class="btn btn-primary mybtn"><img src="./pics/ufrgs.ico"></img> &nbsp Site de Professor na UFRGS</a></p>'
 
@@ -121,3 +121,4 @@ def deploy(odir):
   os.system('mkdir -p ' + odir + '/pics')
   os.system('cp ./pics/favicon.ico ' + odir + '/pics/')
   os.system('cp ./pics/logo.png ' + odir + '/pics/')
+  os.system('cp ./pics/ufrgs.ico ' + odir + '/pics/')
