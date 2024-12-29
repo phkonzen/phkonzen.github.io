@@ -1,4 +1,4 @@
-/* parágrafos */
+/* parágrafos
 .ltx_para > .ltx_p:first-child {
     text-indent: 0em;
     margin-top: 1em;
@@ -9,11 +9,11 @@
     padding-left: 0em;
   }
   
-  .ltx_enumerate {
-    padding-left: 0em;
-  }
+.ltx_enumerate {
+  padding-left: 0em;
+}
 
-/* Listings */
+/* Listings
 
 .ltx_listing {
     margin: 1ex 0em 1ex 0em;
@@ -22,7 +22,8 @@
 }
 
 /* Listings */
-.ltx_lstlisting {
+
+/* .ltx_lstlisting {
     margin: 1ex 0em 1ex 0em;
     text-align: left; 
 }
@@ -42,7 +43,6 @@
 .ltx_lst_numbers_left .ltx_listingline .ltx_tag {
     background-color:transparent;
     margin-left:0em; 
-    /* width:2.5em; */
     margin-right:0.5em;
     position: relative;
     text-align:right; 
@@ -57,7 +57,7 @@
 
 .ltx_tag_listingline {
   color: gray;
-}
+}  */
 
 
 /* td.ltx_eqn_center_padleft {
